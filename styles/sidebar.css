@@ -1,0 +1,43 @@
+.sidebar{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:55px;
+    width:72px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+/* sidebar of youtube:
+left:0
+bottom:0
+top:(header file height) 50
+width:40(instead of right you have to use width because it will stretch it)
+then, do padding in the body tag to align them properly */
+
+/* we can have div position absolute inside div position relative */
+
+.sidebar-link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sidebar-link:hover{
+    background-color: rgb(232, 227, 227);
+}
+
+/* new way of accessing multiple selectors instead of using class*/
+
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div{
+    font-family: Roboto,Arial;
+    font-size: 10px;
+}

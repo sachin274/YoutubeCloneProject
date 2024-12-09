@@ -1,0 +1,20 @@
+/* element selector */
+p{
+    /* font-family:Roboto,Arial; */
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+
+    /* check for css specifity  */
+    /* color:red; */
+
+    font-family: Roboto,Arial;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(246, 246, 246);
+    height:1000px;
+}
